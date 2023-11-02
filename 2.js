@@ -1,5 +1,5 @@
-const moment = require("moment");
+import moment from "moment";
 
-exports.now = function () {
+export function now() {
   return moment().format();
-};
+}
